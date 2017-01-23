@@ -3,4 +3,5 @@
 *.pyc
 *.log
 download/*
-.csv
+download.csv
+
