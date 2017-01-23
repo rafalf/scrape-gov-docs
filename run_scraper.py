@@ -61,7 +61,7 @@ def scrape(fld, fls):
             os.mkdir(downloads_folder)
 
         soup = BeautifulSoup(r.text, 'lxml')
-        if url.count('2017') or url == latest:
+        if url.count('2016') or url == latest:
             table = soup.find('table')
         else:
             table = soup.find_all('table')[-2]
